@@ -1,0 +1,17 @@
+{
+    "name": "Vinbound SEO & AI",
+    "slug": "vinbound-seo-ai",
+    "version": "1.0.0",
+    "download_url": "https://updates.vinboundmarketing.com/vinbound-seo-ai/vinbound-seo-ai.zip",
+    "homepage": "https://vinboundmarketing.com",
+    "requires": "6.5",
+    "tested": "7.1",
+    "requires_php": "7.4",
+    "last_updated": "2026-11-19 18:12:05",
+    "author": "Vinbound Marketing",
+    "author_homepage": "https://vinboundmarketing.com",
+    "sections": {
+        "description": "<p>One status dashboard and a standard set of fixes for the SEO and AI optimization basics on Vinbound-managed sites: business schema, alt text, meta descriptions, H1s, titles, bot access, FAQs, and mobile zoom. Works alongside Yoast SEO or Rank Math.</p>",
+        "changelog": "<h4>1.0.0</h4><ul><li>First release: dashboard, page scan, Business Profile and schema, findings with CSV export, Bot Access with guarded robots.txt and .htaccess changes, FAQ Tracker, mobile zoom fix, Activity Log, access rule, and updates through the WordPress Updates screen.</li></ul>"
+    }
+}
