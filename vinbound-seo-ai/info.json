@@ -1,17 +1,17 @@
 {
     "name": "Vinbound SEO & AI",
     "slug": "vinbound-seo-ai",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "download_url": "https://updates.vinboundmarketing.com/vinbound-seo-ai/vinbound-seo-ai.zip",
     "homepage": "https://vinboundmarketing.com",
     "requires": "6.5",
     "tested": "7.1",
     "requires_php": "7.4",
-    "last_updated": "2026-11-19 18:12:05",
+    "last_updated": "2026-11-19 23:20:23",
     "author": "Vinbound Marketing",
     "author_homepage": "https://vinboundmarketing.com",
     "sections": {
         "description": "<p>One status dashboard and a standard set of fixes for the SEO and AI optimization basics on Vinbound-managed sites: business schema, alt text, meta descriptions, H1s, titles, bot access, FAQs, and mobile zoom. Works alongside Yoast SEO or Rank Math.</p>",
-        "changelog": "<h4>1.0.0</h4><ul><li>First release: dashboard, page scan, Business Profile and schema, findings with CSV export, Bot Access with guarded robots.txt and .htaccess changes, FAQ Tracker, mobile zoom fix, Activity Log, access rule, and updates through the WordPress Updates screen.</li></ul>"
+        "changelog": "<h4>1.0.1</h4><ul><li>Commerce7 pages (store, product, club, and account pages) are recognized, listed for reference, and left out of the meta description, title, and H1 counts.</li><li>The scan reads a fresh copy of each page instead of a cached one. After the zoom fix is switched on or off, the plugin clears the caches it can reach and reports whether visitors are already getting the new page.</li><li>The scheduled scan is skipped when a scan finished within the last hour.</li><li>Settings: choose which content types the scan counts, and leave out addresses by rule (for example /qr/*). Event venue and organizer pages start out left out.</li><li>FAQ Tracker: better suggestions for the core pages. Pages hidden from search and Commerce7 pages are never suggested, and pages where the scan saw an FAQ are offered for the list.</li><li>Business Profile: &quot;Fill empty fields from the schema on the homepage&quot; reads a business schema block that is already on the site and names every part the profile has no field for. The Dashboard points at such a block while the profile still has empty fields. The second-business-block finding names the block, says where it comes from, and counts every page that carries it.</li><li>Dashboard: &quot;Start here&quot; lists what is wrong on the homepage and the core pages. Findings lists show the homepage first, then core pages.</li><li>Other plugins&#039; notices no longer show on the plugin&#039;s own screens.</li><li>The Dashboard asks for a rescan when the last scan was made by an earlier version of the plugin.</li></ul><h4>1.0.0</h4><ul><li>First release: dashboard, page scan, Business Profile and schema, findings with CSV export, Bot Access with guarded robots.txt and .htaccess changes, FAQ Tracker, mobile zoom fix, Activity Log, access rule, and updates through the WordPress Updates screen.</li></ul>"
     }
 }
