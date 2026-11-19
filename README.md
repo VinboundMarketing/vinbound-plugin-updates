@@ -11,6 +11,6 @@ Release files for WordPress plugins that Vinbound Marketing installs on the site
 
 ## Publishing a release
 
-Both files are replaced together in a single commit, so a site never sees a new `info.json` that points at an old zip. The files come from the plugin project's build script. Do not edit them by hand here.
+The zip is published first. Once the new zip is confirmed live, `info.json` follows, so a site is never told about a version before its zip can be downloaded. The files come from the plugin project's build and publish scripts. Do not edit them by hand here.
 
 The file names and the folder name are part of the address every installed copy checks. Do not rename them.
